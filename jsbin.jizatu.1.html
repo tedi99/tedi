@@ -1,0 +1,192 @@
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by tedi33 (http://jsbin.com/jizatu/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body {
+  background-color:#78349D;
+}
+
+.content{
+  background-color:#39ACA3;
+  width:450px ;
+  height:400px;
+  float: left;
+}
+
+.title{
+  width:10%;
+  float:left;
+  position:fixed;
+  padding-top:20px;
+}
+
+
+.content1{
+background-color:#123626; 
+} 
+
+.content2{
+  background-color:#66CCB6; 
+
+}
+
+.content3{
+background-color:#5BC886; 
+} 
+
+.content4{
+  
+
+}
+
+.content{
+background-color:#66CC7C; 
+  
+}
+
+.cnt{
+width:85%;
+min-height:100px; 
+  margin-left:15%;
+margin-top:10px;
+}
+
+.cntContent{
+width:85%;
+height:150px;
+
+margin-left:15%;
+margin-top:30px;
+}
+
+.menu {
+  display:block;
+  width:100%;
+  background:green;
+  margin-top:10px;
+  color:white;
+  text-decoration:none;
+}
+
+.img{
+  width:100px;
+  height:100px;
+  margin-top:30px;
+ 
+}
+
+.img, .imgcl{
+    -webkit-transition: all 5s ease-in-out;
+-moz-transition: all 1s ease-in-out; 
+-o-transition: all 1s ease-in-out; 
+-ms-transition: all 1s ease-in-out;
+}
+
+
+
+.img:active, .imgcl:active  {
+  width:200px;
+  height:200px;
+  margin-top:30px;
+  opacity:0;
+  -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out; 
+-o-transition: all 1s ease-in-out; 
+-ms-transition: all 1s ease-in-out;
+}
+
+
+
+.imgcl {
+  height:100px;
+  width:100px;
+   margin-top:50px;
+     margin-left:50px;
+  
+}
+
+p {
+  color:#fff;
+}
+
+.img:hover, .imgcl:hover {
+  
+ -webkit-transform: rotate(360deg); 
+-moz-transform: rotate(360deg); 
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+</style>
+</head>
+<body>
+  <div> 
+    <div class="title">  
+      <a class="menu" href="#profile">профил</a>
+      <a class="menu" href="#mypicture">мои снимки</a>
+      <a class="menu" href="#picture">снимки</a>
+      <a class="menu" href="#videos">видеа</a>
+      
+    </div> 
+    <div 
+    <div class="content1 cnt" id="profile">
+    <p>асм теди борисов </p>  
+    <p>от софия асм уча в 113 СОУ
+    <br />
+      обичам много фудбола и да ти чам 
+    </p>
+    <p>15г. </p>
+   за повече иформачия 0886215677 
+    </div> 
+    <div class="content2 cntContent" id="mypicture">
+      <img src="https://scontent-b.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10734192_538622626271301_8094191135503001013_n.jpg?oh=8eb2b84c8a4895ff70773b80ec96f698&oe=54E980B5" class="img"/>
+      <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/540399_539228619544035_633258681319163716_n.jpg?oh=fe4a6d23b051f3119c4002a7bd679644&oe=54E3F4AA&__gda__=1427775703_37ab68025fa3b3d048ab13d3055bc9cd" class="img"/>
+      <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1546011_526191267514437_7607612505131289115_n.jpg?oh=8b80b3e072e91ad35209371a6c22336f&oe=54DFA533&__gda__=1424185614_fe4b44f323db626b86388810a82d3cfd" class="img"/>
+      <img src="https://scontent-b.xx.fbcdn.net/hphotos-xfp1/v/l/t1.0-9/10712700_1491423724440540_1765895507354713312_n.jpg?oh=8dcda0847fe91027fc0b75e2d46d3866&oe=54EE3854"class="img"/>
+     <img src="https://scontent-a.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1381293_548508898616007_2211124692581984234_n.jpg?oh=171fa3c0cb4d6a8926de2ce4114a6221&oe=551E3F88"class="img"/>
+    </div> 
+    <div class="content3 cnt" id="picture">
+      <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10176191_543248719142025_2244775546667915527_n.jpg?oh=3172d65dab864362d4cc14c0dc6e9d8a&oe=54DFE98A&__gda__=1428120662_71a47392cf515315f884f257b6941b8a" class="imgCl"/>
+      <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10411311_540113989455498_6910089399080697170_n.jpg?oh=07d72bda250cc858cc66485f38c55fb8&oe=54E0A0F1&__gda__=1423531337_6efeb57c29db394b22b814a3b5d4d6ea"class="imgcl"/>
+      <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1512585_537335133066717_7590894336621199171_n.jpg?oh=5c9624a58ea015812edeafe1dc2f76f1&oe=54F10B28&__gda__=1425008993_d23a94f89c8743d5287b5b1df57efb23" class="imgcl"/>
+      <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10641213_531283857005178_835219837621580384_n.jpg?oh=bc01efa61d180d6fdb63924cc90b819e&oe=54D52BDE&__gda__=1424405731_396c250ff7a2eed00eb94fb53cb4d6c5"class="imgcl"/>
+      <img src="https://scontent-a.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1493237_525473167586247_6776561703784828736_n.jpg?oh=ff2b94d7480547ad221ceeebc93bb148&oe=551E4A74"class="imgcl"/>
+      <img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10620744_515806911886206_8094052215651331272_n.jpg?oh=bbb2bea3cd7395abd9b51df27125637e&oe=54EC4E48&__gda__=1423087252_cc2d688784aeea35f9411daebd55f840"class="imgcl"/>
+      <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1908371_505605376239693_2731990123745115887_n.jpg?oh=c4f3f113420603c500bb2ea0ec0b9afe&oe=54ED87DC&__gda__=1424949473_659f45fd720daa11afa72e32ebc98286"class="imgcl"/>
+      <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10404478_497426473724250_7314783755532533330_n.jpg?oh=2a1e2e6c82f5b6620ffee9c9e0e11c56&oe=54EC7CAC&__gda__=1428153876_10d3eea9b992c79f7284171bf3420d11"class="imgcl"/>
+      
+    </div>
+    <div class="content4 cnt" id="videos">
+                                         
+                                         
+<iframe width="384" height="216" src="https://www.youtube.com/embed/Nk4N_LGWNA4" frameborder="0" allowfullscreen=""></iframe>
+      </br>
+                                          
+<iframe width="384" height="216" src="http://www.youtube.com/embed/FafAq1bUxLA" frameborder="0" allowfullscreen></iframe>
+                                                                                </br>          
+ <iframe width="384" height="216" src="http://www.youtube.com/embed/bER_cQEHjCs" frameborder="0" allowfullscreen></iframe>
+                </br>                                                         <iframe width="384" height="216" src="http://www.youtube.com/embed/VKFvCU_VmS8" frameborder="0" allowfullscreen></iframe>                  
+                  </br>                                                
+  </div>
+    
+ </div>
+  <div>
+  </div>
+</body>
+</html>
